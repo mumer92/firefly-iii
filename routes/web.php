@@ -522,12 +522,12 @@ Route::group(
 /**
  * Help Controller
  */
-Route::group(
-    ['middleware' => 'user-full-auth', 'namespace' => 'FireflyIII\Http\Controllers', 'prefix' => 'help', 'as' => 'help.'], function () {
-    Route::get('{route}', ['uses' => 'HelpController@show', 'as' => 'show']);
+// Route::group(
+//     ['middleware' => 'user-full-auth', 'namespace' => 'FireflyIII\Http\Controllers', 'prefix' => 'help', 'as' => 'help.'], function () {
+//     Route::get('{route}', ['uses' => 'HelpController@show', 'as' => 'show']);
 
-}
-);
+// }
+// );
 
 /**
  * Budget Controller

@@ -7,15 +7,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="robots" content="noindex, nofollow, noarchive, noodp, NoImageIndex, noydir">
     <title>
-        {% if subTitle %}
-            {{ subTitle }} »
-        {% endif %}
-        {% if title != "Firefly III" %}
-            {{ title }} »
-        {% endif %}
-
-        Firefly III
-
+	Finance Manager
     </title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     {# CSS things #}
@@ -68,7 +60,7 @@
             <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
                 <span class="sr-only">{{ 'toggleNavigation'|_ }}</span>
             </a>
-            <div class="navbar-custom-menu">
+            <div class="navbar-custom-menu" style="display: none;">
                 <ul class="nav navbar-nav">
 
                     {# <li class="hidden-sm hidden-xs">
