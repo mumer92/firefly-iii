@@ -1,6 +1,6 @@
 {
-  "name": "grumpydictator/firefly-iii",
-  "description": "Firefly III: a personal finances manager.",
+  "name": "indicator/financemanager",
+  "description": "Finance Manager: a personal finances manager.",
   "keywords": [
     "finance",
     "finances",
@@ -37,14 +37,12 @@
   "license": "GPL-3.0-or-later",
   "homepage": "https://github.com/firefly-iii/firefly-iii",
   "type": "project",
-  "authors": [
-    {
-      "name": "James Cole",
-      "email": "thegrumpydictator@gmail.com",
-      "homepage": "https://github.com/firefly-iii",
-      "role": "Developer"
-    }
-  ],
+  "authors": [{
+    "name": "James Cole",
+    "email": "thegrumpydictator@gmail.com",
+    "homepage": "https://github.com/firefly-iii",
+    "role": "Developer"
+  }],
   "require": {
     "php": ">=7.2.0",
     "ext-bcmath": "*",

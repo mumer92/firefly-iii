@@ -59,9 +59,9 @@
         {# Logo #}
         <a href="{{ route('index') }}" class="logo">
             {# mini logo for sidebar mini 50x50 pixels #}
-            <span class="logo-mini">FF</span>
+            <span class="logo-mini">FM</span>
             {# logo for regular state and mobile devices #}
-            <span class="logo-lg"><b>Firefly</b>III</span>
+            <span class="logo-lg"><b>FinanceManager</b>III</span>
         </a>
 
         <nav class="navbar navbar-static-top" role="navigation">
@@ -71,11 +71,11 @@
             <div class="navbar-custom-menu">
                 <ul class="nav navbar-nav">
 
-                    <li class="hidden-sm hidden-xs">
+                    {# <li class="hidden-sm hidden-xs">
                         <a href="#" id="help" data-route="{{ original_route_name }}" data-extra="{{ what|default("") }}">
                             <i class="fa fa-question-circle" data-route="{{ original_route_name }}" data-extra="{{ what|default("") }}"></i>
                         </a>
-                    </li>
+                    </li> #}
 
                     <li>
                         <span style="color:#fff;padding: 15px;display: block;line-height: 20px;">
@@ -135,10 +135,10 @@
         </section>
     </div>
     <footer class="main-footer">
-        <div class="pull-right hidden-xs">
+        {# <div class="pull-right hidden-xs">
             <b>{{ 'version'|_ }}</b> <a href="{{ route('debug') }}">{{ Config.get('firefly.version') }}</a>
-        </div>
-        <strong><a href="https://github.com/firefly-iii/firefly-iii">Firefly III</a></strong>
+        </div> #}
+        <strong>FinanceManager</a></strong>
     </footer>
 
     {% include('partials.control-bar') %}
