@@ -4,20 +4,20 @@
  * firefly.php
  * Copyright (c) 2018 thegrumpydictator@gmail.com
  *
- * This file is part of Firefly III.
+ * This file is part of App.
  *
- * Firefly III is free software: you can redistribute it and/or modify
+ * App is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * Firefly III is distributed in the hope that it will be useful,
+ * App is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with Firefly III. If not, see <http://www.gnu.org/licenses/>.
+ * along with App. If not, see <http://www.gnu.org/licenses/>.
  */
 
 declare(strict_types=1);
@@ -89,7 +89,7 @@ return [
     'two_factor_forgot'                          => 'I forgot my two-factor thing.',
     'two_factor_lost_header'                     => 'Lost your two factor authentication?',
     'two_factor_lost_intro'                      => 'Unfortunately, this is not something you can reset from the web interface. You have two choices.',
-    'two_factor_lost_fix_self'                   => 'If you run your own instance of Firefly III, check the logs in <code>storage/logs</code> for instructions.',
+    'two_factor_lost_fix_self'                   => 'If you run your own instance of App, check the logs in <code>storage/logs</code> for instructions.',
     'two_factor_lost_fix_owner'                  => 'Otherwise, email the site owner, <a href="mailto::site_owner">:site_owner</a> and ask them to reset your two factor authentication.',
     'warning_much_data'                          => ':days days of data may take a while to load.',
     'registered'                                 => 'You have registered successfully!',
@@ -101,7 +101,7 @@ return [
     'destination_accounts'                       => 'Destination account(s)',
     'user_id_is'                                 => 'Your user id is <strong>:user</strong>',
     'field_supports_markdown'                    => 'This field supports <a href="https://en.support.wordpress.com/markdown-quick-reference/">Markdown</a>.',
-    'need_more_help'                             => 'If you need more help using Firefly III, please <a href="https://github.com/firefly-iii/firefly-iii/issues">open a ticket on Github</a>.',
+    'need_more_help'                             => 'If you need more help using App, please <a href="https://github.com/firefly-iii/firefly-iii/issues">open a ticket on Github</a>.',
     'reenable_intro_text'                        => 'You can also reenable <a href="#" id="reenableGuidance">the introduction guidance</a>.',
     'intro_boxes_after_refresh'                  => 'The introduction boxes will reappear when you refresh the page.',
     'show_all_no_filter'                         => 'Show all transactions without grouping them by date.',
@@ -110,7 +110,7 @@ return [
     'income_by_category'                         => 'Income by category',
     'expenses_by_asset_account'                  => 'Expenses by asset account',
     'expenses_by_expense_account'                => 'Expenses by expense account',
-    'cannot_redirect_to_account'                 => 'Firefly III cannot redirect you to the correct page. Apologies.',
+    'cannot_redirect_to_account'                 => 'App cannot redirect you to the correct page. Apologies.',
     'sum_of_expenses'                            => 'Sum of expenses',
     'sum_of_income'                              => 'Sum of income',
     'spent_in_specific_budget'                   => 'Spent in budget ":budget"',
@@ -165,7 +165,7 @@ return [
     'transfer_exchange_rate_instructions'        => 'Source asset account "@source_name" only accepts transactions in @source_currency. Destination asset account "@dest_name" only accepts transactions in @dest_currency. You must provide the transferred amount correctly in both currencies.',
     'transaction_data'                           => 'Transaction data',
     'invalid_server_configuration'               => 'Invalid server configuration',
-    'invalid_locale_settings'                    => 'Firefly III is unable to format monetary amounts because your server is missing the required packages. There are <a href="https://github.com/firefly-iii/help/wiki/Missing-locale-packages">instructions how to do this</a>.',
+    'invalid_locale_settings'                    => 'App is unable to format monetary amounts because your server is missing the required packages. There are <a href="https://github.com/firefly-iii/help/wiki/Missing-locale-packages">instructions how to do this</a>.',
     'quickswitch'                                => 'Quickswitch',
     'sign_in_to_start'                           => 'Sign in to start your session',
     'sign_in'                                    => 'Sign in',
@@ -182,7 +182,7 @@ return [
     'average_per_bill'                           => 'average per bill',
     'expected_total'                             => 'expected total',
     // API access
-    'authorization_request'                      => 'Firefly III v:version Authorization Request',
+    'authorization_request'                      => 'App v:version Authorization Request',
     'authorization_request_intro'                => '<strong>:client</strong> is requesting permission to access your financial administration. Would you like to authorize <strong>:client</strong> to access these records?',
     'scopes_will_be_able'                        => 'This application will be able to:',
     'button_authorize'                           => 'Authorize',
@@ -194,15 +194,15 @@ return [
     // check for updates:
     'update_check_title'                         => 'Check for updates',
     'admin_update_check_title'                   => 'Automatically check for update',
-    'admin_update_check_explain'                 => 'Firefly III can check for updates automatically. When you enable this setting, it will contact Github to see if a new version of Firefly III is available. When it is, you will get a notification. You can test this notification using the button on the right. Please indicate below if you want Firefly III to check for updates.',
-    'check_for_updates_permission'               => 'Firefly III can check for updates, but it needs your permission to do so. Please go to the <a href=":link">administration</a> to indicate if you would like this feature to be enabled.',
+    'admin_update_check_explain'                 => 'App can check for updates automatically. When you enable this setting, it will contact Github to see if a new version of App is available. When it is, you will get a notification. You can test this notification using the button on the right. Please indicate below if you want App to check for updates.',
+    'check_for_updates_permission'               => 'App can check for updates, but it needs your permission to do so. Please go to the <a href=":link">administration</a> to indicate if you would like this feature to be enabled.',
     'updates_ask_me_later'                       => 'Ask me later',
     'updates_do_not_check'                       => 'Do not check for updates',
     'updates_enable_check'                       => 'Enable the check for updates',
     'admin_update_check_now_title'               => 'Check for updates now',
-    'admin_update_check_now_explain'             => 'If you press the button, Firefly III will see if your current version is the latest.',
+    'admin_update_check_now_explain'             => 'If you press the button, App will see if your current version is the latest.',
     'check_for_updates_button'                   => 'Check now!',
-    'update_new_version_alert'                   => 'A new version of Firefly III is available. You are running v:your_version, the latest version is v:new_version which was released on :date.',
+    'update_new_version_alert'                   => 'A new version of App is available. You are running v:your_version, the latest version is v:new_version which was released on :date.',
     'update_current_version_alert'               => 'You are running v:version, which is the latest available release.',
     'update_newer_version_alert'                 => 'You are running v:your_version, which is newer than the latest release, v:new_version.',
     'update_check_error'                         => 'An error occurred while checking for updates. Please view the log files.',
@@ -213,7 +213,7 @@ return [
     'search_found_transactions'                  => 'Number of transactions found:',
     'general_search_error'                       => 'An error occured while searching. Please check the log files for more information.',
     'search_box'                                 => 'Search',
-    'search_box_intro'                           => 'Welcome to the search function of Firefly III. Enter your search query in the box. Make sure you check out the help file because the search is pretty advanced.',
+    'search_box_intro'                           => 'Welcome to the search. Enter your search query in the box. Make sure you check out the help file because the search is pretty advanced.',
     'search_error'                               => 'Error while searching',
     'search_searching'                           => 'Searching ...',
     'search_results'                             => 'Search results',
@@ -233,11 +233,11 @@ return [
     'import_and_export'                          => 'Import and export',
     'export_data'                                => 'Export data',
     'export_and_backup_data'                     => 'Export data',
-    'export_data_intro'                          => 'Use the exported data to move to a new financial application. Please note that these files are not meant as a backup. They do not contain enough meta-data to fully restore a new Firefly III installation. If you want to make a backup of your data, please backup the database directly.',
+    'export_data_intro'                          => 'Use the exported data to move to a new financial application. Please note that these files are not meant as a backup. They do not contain enough meta-data to fully restore a new installation. If you want to make a backup of your data, please backup the database directly.',
     'export_format'                              => 'Export format',
     'export_format_csv'                          => 'Comma separated values (CSV file)',
     'export_format_mt940'                        => 'MT940 compatible format',
-    'include_old_uploads_help'                   => 'Firefly III does not throw away the original CSV files you have imported in the past. You can include them in your export.',
+    'include_old_uploads_help'                   => 'App does not throw away the original CSV files you have imported in the past. You can include them in your export.',
     'do_export'                                  => 'Export',
     'export_status_never_started'                => 'The export has not started yet',
     'export_status_make_exporter'                => 'Creating exporter thing...',
@@ -279,7 +279,7 @@ return [
     'save_rules_by_moving'                       => 'Save these rule(s) by moving them to another rule group:',
     'make_new_rule'                              => 'Make a new rule in rule group ":title"',
     'make_new_rule_no_group'                     => 'Make a new rule',
-    'instructions_rule_from_bill'                => 'In order to match transactions to your new bill ":name", Firefly III can create a rule that will automatically be checked against any transactions you store. Please verify the details below and store the rule to have Firefly III automatically match transactions to your new bill.',
+    'instructions_rule_from_bill'                => 'In order to match transactions to your new bill ":name", App can create a rule that will automatically be checked against any transactions you store. Please verify the details below and store the rule to have app  automatically match transactions to your new bill.',
     'rule_is_strict'                             => 'strict rule',
     'rule_is_not_strict'                         => 'non-strict rule',
     'rule_help_stop_processing'                  => 'When you check this box, later rules in this group will not be executed.',
@@ -313,12 +313,12 @@ return [
     'warning_no_matching_transactions'           => 'No matching transactions found. Please note that for performance reasons, only the last :num_transactions transactions have been checked.',
     'warning_no_valid_triggers'                  => 'No valid triggers provided.',
     'apply_rule_selection'                       => 'Apply rule ":title" to a selection of your transactions',
-    'apply_rule_selection_intro'                 => 'Rules like ":title" are normally only applied to new or updated transactions, but you can tell Firefly III to run it on a selection of your existing transactions. This can be useful when you have updated a rule and you need the changes to be applied to all of your other transactions.',
+    'apply_rule_selection_intro'                 => 'Rules like ":title" are normally only applied to new or updated transactions, but you can tell app to run it on a selection of your existing transactions. This can be useful when you have updated a rule and you need the changes to be applied to all of your other transactions.',
     'include_transactions_from_accounts'         => 'Include transactions from these accounts',
     'applied_rule_selection'                     => 'Rule ":title" has been applied to your selection.',
     'execute'                                    => 'Execute',
     'apply_rule_group_selection'                 => 'Apply rule group ":title" to a selection of your transactions',
-    'apply_rule_group_selection_intro'           => 'Rule groups like ":title" are normally only applied to new or updated transactions, but you can tell Firefly III to run all the rules in this group on a selection of your existing transactions. This can be useful when you have updated a group of rules and you need the changes to be applied to all of your other transactions.',
+    'apply_rule_group_selection_intro'           => 'Rule groups like ":title" are normally only applied to new or updated transactions, but you can tell app to run all the rules in this group on a selection of your existing transactions. This can be useful when you have updated a group of rules and you need the changes to be applied to all of your other transactions.',
     'applied_rule_group_selection'               => 'Rule group ":title" has been applied to your selection.',
 
     // actions and triggers
@@ -439,7 +439,7 @@ return [
     'rule_for_bill_title'                     => 'Auto-generated rule for bill ":name"',
     'rule_for_bill_description'               => 'This rule is auto-generated to try to match bill ":name".',
     'create_rule_for_bill'                    => 'Create a new rule for bill ":name"',
-    'create_rule_for_bill_txt'                => 'You have just created a new bill called ":name", congratulations! Firefly III can automagically match new withdrawals to this bill. For example, whenever you pay your rent, the bill "rent" will be linked to the expense. This way, Firefly III can accurately show you which bills are due and which ones aren\'t. In order to do so, a new rule must be created. Firefly III has filled in some sensible defaults for you. Please make sure these are correct. If these values are correct, Firefly III will automatically link the correct withdrawal to the correct bill. Please check out the triggers to see if they are correct, and add some if they\'re wrong.',
+    'create_rule_for_bill_txt'                => 'You have just created a new bill called ":name", congratulations! app  can automagically match new withdrawals to this bill. For example, whenever you pay your rent, the bill "rent" will be linked to the expense. This way, can accurately show you which bills are due and which ones aren\'t. In order to do so, a new rule must be created. App has filled in some sensible defaults for you. Please make sure these are correct. If these values are correct, App will automatically link the correct withdrawal to the correct bill. Please check out the triggers to see if they are correct, and add some if they\'re wrong.',
     'new_rule_for_bill_title'                 => 'Rule for bill ":name"',
     'new_rule_for_bill_description'           => 'This rule marks transactions for bill ":name".',
 
@@ -468,7 +468,7 @@ return [
     'pref_6M'                                 => 'Six months',
     'pref_1Y'                                 => 'One year',
     'pref_languages'                          => 'Languages',
-    'pref_languages_help'                     => 'Firefly III supports several languages. Which one do you prefer?',
+    'pref_languages_help'                     => 'App supports several languages. Which one do you prefer?',
     'pref_custom_fiscal_year'                 => 'Fiscal year settings',
     'pref_custom_fiscal_year_label'           => 'Enabled',
     'pref_custom_fiscal_year_help'            => 'In countries that use a financial year other than January 1 to December 31, you can switch this on and specify start / end days of the fiscal year',
@@ -523,7 +523,7 @@ return [
     'new_password'                            => 'New password',
     'new_password_again'                      => 'New password (again)',
     'delete_your_account'                     => 'Delete your account',
-    'delete_your_account_help'                => 'Deleting your account will also delete any accounts, transactions, <em>anything</em> you might have saved into Firefly III. It\'ll be GONE.',
+    'delete_your_account_help'                => 'Deleting your account will also delete any accounts, transactions, <em>anything</em> you might have saved into App. It\'ll be GONE.',
     'delete_your_account_password'            => 'Enter your password to continue.',
     'password'                                => 'Password',
     'are_you_sure'                            => 'Are you sure? You cannot undo this.',
@@ -535,24 +535,24 @@ return [
     'what_is_pw_security'                     => 'What is "verify password security"?',
     'secure_pw_title'                         => 'How to choose a secure password',
     'secure_pw_history'                       => 'In August 2017 well known security researcher Troy Hunt released a list of 306 million stolen passwords. These passwords were stolen during breakins at companies like LinkedIn, Adobe and NeoPets (and many more).',
-    'secure_pw_check_box'                     => 'By checking the box, Firefly III will send the first five characters of the SHA1 hash of your password to <a href="https://www.troyhunt.com/introducing-306-million-freely-downloadable-pwned-passwords/">the website of Troy Hunt</a> to see if it is on the list. This will stop you from using unsafe passwords as is recommended in the latest <a href="https://pages.nist.gov/800-63-3/sp800-63b.html">NIST Special Publication</a> on this subject.',
+    'secure_pw_check_box'                     => 'By checking the box, App will send the first five characters of the SHA1 hash of your password to <a href="https://www.troyhunt.com/introducing-306-million-freely-downloadable-pwned-passwords/">the website of Troy Hunt</a> to see if it is on the list. This will stop you from using unsafe passwords as is recommended in the latest <a href="https://pages.nist.gov/800-63-3/sp800-63b.html">NIST Special Publication</a> on this subject.',
     'secure_pw_sha1'                          => 'But I thought SHA1 was broken?',
     'secure_pw_hash_speed'                    => 'Yes, but not in this context. As you can read on <a href="https://shattered.io/">the website detailing how they broke SHA1</a>, it is now slightly easier to find a "collision": another digest that results in the same SHA1-hash. It now only takes 10,000 years using a single-GPU machine.',
-    'secure_pw_hash_security'                 => 'This digest would not be equal to your password, nor would it be useful on (a site like) Firefly III. This application does not use SHA1 for password verification. So it is safe to check this box. Your password is hashed and only the first five characters of this digest are sent over HTTPS.',
+    'secure_pw_hash_security'                 => 'This digest would not be equal to your password, nor would it be useful on (a site like) App. This application does not use SHA1 for password verification. So it is safe to check this box. Your password is hashed and only the first five characters of this digest are sent over HTTPS.',
     'secure_pw_should'                        => 'Should I check the box?',
-    'secure_pw_long_password'                 => 'If you just generated a long, single-use password for Firefly III using some kind of password generator: <strong>no</strong>.',
+    'secure_pw_long_password'                 => 'If you just generated a long, single-use password for App using some kind of password generator: <strong>no</strong>.',
     'secure_pw_short'                         => 'If you just entered the password you always use: <em>Please yes</em>.',
     'command_line_token'                      => 'Command line token',
     'explain_command_line_token'              => 'You need this token to perform command line options, such as importing or exporting data. Without it, such sensitive commands will not work. Do not share your command line token. Nobody will ask you for this token, not even me. If you fear you lost this, or when you\'re paranoid, regenerate this token using the button.',
     'regenerate_command_line_token'           => 'Regenerate command line token',
     'token_regenerated'                       => 'A new command line token was generated',
     'change_your_email'                       => 'Change your email address',
-    'email_verification'                      => 'An email message will be sent to your old AND new email address. For security purposes, you will not be able to login until you verify your new email address. If you are unsure if your Firefly III installation is capable of sending email, please do not use this feature. If you are an administrator, you can test this in the <a href="/admin">Administration</a>.',
+    'email_verification'                      => 'An email message will be sent to your old AND new email address. For security purposes, you will not be able to login until you verify your new email address. If you are unsure if your App installation is capable of sending email, please do not use this feature. If you are an administrator, you can test this in the <a href="/admin">Administration</a>.',
     'email_changed_logout'                    => 'Until you verify your email address, you cannot login.',
     'login_with_new_email'                    => 'You can now login with your new email address.',
     'login_with_old_email'                    => 'You can now login with your old email address again.',
     'login_provider_local_only'               => 'This action is not available when authenticating through ":login_provider".',
-    'delete_local_info_only'                  => 'Because you authenticate through ":login_provider", this will only delete local Firefly III information.',
+    'delete_local_info_only'                  => 'Because you authenticate through ":login_provider", this will only delete local App information.',
 
     // attachments
     'nr_of_attachments'                       => 'One attachment|:count attachments',
@@ -629,7 +629,7 @@ return [
     'could_not_store_currency'                => 'Could not store the new currency.',
     'updated_currency'                        => 'Currency :name updated',
     'ask_site_owner'                          => 'Please ask :owner to add, remove or edit currencies.',
-    'currencies_intro'                        => 'Firefly III supports various currencies which you can set and enable here.',
+    'currencies_intro'                        => 'App supports various currencies which you can set and enable here.',
     'make_default_currency'                   => 'make default',
     'default_currency'                        => 'default',
 
@@ -668,8 +668,8 @@ return [
     'bill_related_rules'                      => 'Rules related to this bill',
     'repeats'                                 => 'Repeats',
     'connected_journals'                      => 'Connected transactions',
-    'auto_match_on'                           => 'Automatically matched by Firefly III',
-    'auto_match_off'                          => 'Not automatically matched by Firefly III',
+    'auto_match_on'                           => 'Automatically matched by App',
+    'auto_match_off'                          => 'Not automatically matched by App',
     'next_expected_match'                     => 'Next expected match',
     'delete_bill'                             => 'Delete bill ":name"',
     'deleted_bill'                            => 'Deleted bill ":name"',
@@ -758,9 +758,9 @@ return [
     'select_more_than_one_budget'             => 'Please select more than one budget',
     'select_more_than_one_tag'                => 'Please select more than one tag',
     'account_default_currency'                => 'This will be the default currency associated with this account.',
-    'reconcile_has_more'                      => 'Your Firefly III ledger has more money in it than your bank claims you should have. There are several options. Please choose what to do. Then, press "Confirm reconciliation".',
-    'reconcile_has_less'                      => 'Your Firefly III ledger has less money in it than your bank claims you should have. There are several options. Please choose what to do. Then, press "Confirm reconciliation".',
-    'reconcile_is_equal'                      => 'Your Firefly III ledger and your bank statements match. There is nothing to do. Please press "Confirm reconciliation" to confirm your input.',
+    'reconcile_has_more'                      => 'Your App ledger has more money in it than your bank claims you should have. There are several options. Please choose what to do. Then, press "Confirm reconciliation".',
+    'reconcile_has_less'                      => 'Your App ledger has less money in it than your bank claims you should have. There are several options. Please choose what to do. Then, press "Confirm reconciliation".',
+    'reconcile_is_equal'                      => 'Your App ledger and your bank statements match. There is nothing to do. Please press "Confirm reconciliation" to confirm your input.',
     'create_pos_reconcile_transaction'        => 'Clear the selected transactions, and create a correction adding :amount to this asset account.',
     'create_neg_reconcile_transaction'        => 'Clear the selected transactions, and create a correction removing :amount from this asset account.',
     'reconcile_do_nothing'                    => 'Clear the selected transactions, but do not correct.',
@@ -846,15 +846,15 @@ return [
     'unknown_journal_error'                   => 'Could not store the transaction. Please check the log files.',
 
     // new user:
-    'welcome'                                 => 'Welcome to Firefly III!',
+    'welcome'                                 => 'Welcome to Finance Manager!',
     'submit'                                  => 'Submit',
     'submit_yes_really'                       => 'Submit (I know what I\'m doing)',
     'getting_started'                         => 'Getting started',
-    'to_get_started'                          => 'It is good to see you have successfully installed Firefly III. To get started with this tool please enter your bank\'s name and the balance of your main checking account. Do not worry yet if you have multiple accounts. You can add those later. It\'s just that Firefly III needs something to start with.',
-    'savings_balance_text'                    => 'Firefly III will automatically create a savings account for you. By default, there will be no money in your savings account, but if you tell Firefly III the balance it will be stored as such.',
-    'finish_up_new_user'                      => 'That\'s it! You can continue by pressing <strong>Submit</strong>. You will be taken to the index of Firefly III.',
+    'to_get_started'                          => 'It is good to see you have successfully installed App. To get started with this tool please enter your bank\'s name and the balance of your main checking account. Do not worry yet if you have multiple accounts. You can add those later. It\'s just that App needs something to start with.',
+    'savings_balance_text'                    => 'App will automatically create a savings account for you. By default, there will be no money in your savings account, but if you tell App the balance it will be stored as such.',
+    'finish_up_new_user'                      => 'That\'s it! You can continue by pressing <strong>Submit</strong>. You will be taken to the index of App.',
     'stored_new_accounts_new_user'            => 'Yay! Your new accounts have been stored.',
-    'set_preferred_language'                  => 'If you prefer to use Firefly III in another language, please indicate so here.',
+    'set_preferred_language'                  => 'If you prefer to use App in another language, please indicate so here.',
     'language'                                => 'Language',
     'new_savings_account'                     => ':bank_name savings account',
     'cash_wallet'                             => 'Cash wallet',
@@ -1109,9 +1109,9 @@ return [
     'list_all_users'                        => 'All users',
     'all_users'                             => 'All users',
     'instance_configuration'                => 'Configuration',
-    'firefly_instance_configuration'        => 'Configuration options for Firefly III',
+    'firefly_instance_configuration'        => 'Configuration options for App',
     'setting_single_user_mode'              => 'Single user mode',
-    'setting_single_user_mode_explain'      => 'By default, Firefly III only accepts one (1) registration: you. This is a security measure, preventing others from using your instance unless you allow them to. Future registrations are blocked. When you uncheck this box, others can use your instance as well, assuming they can reach it (when it is connected to the internet).',
+    'setting_single_user_mode_explain'      => 'By default, App only accepts one (1) registration: you. This is a security measure, preventing others from using your instance unless you allow them to. Future registrations are blocked. When you uncheck this box, others can use your instance as well, assuming they can reach it (when it is connected to the internet).',
     'store_configuration'                   => 'Store configuration',
     'single_user_administration'            => 'User administration for :email',
     'edit_user'                             => 'Edit user :email',
@@ -1210,17 +1210,17 @@ return [
     'cannot_convert_split_journal'          => 'Cannot convert a split transaction',
 
     // Import page (general strings only)
-    'import_index_title'                    => 'Import transactions into Firefly III',
+    'import_index_title'                    => 'Import transactions into App',
     'import_data'                           => 'Import data',
     'import_transactions'                   => 'Import transactions',
 
     // sandstorm.io errors and messages:
-    'sandstorm_not_available'               => 'This function is not available when you are using Firefly III within a Sandstorm.io environment.',
+    'sandstorm_not_available'               => 'This function is not available when you are using App within a Sandstorm.io environment.',
 
     // empty lists? no objects? instructions:
     'no_accounts_title_asset'               => 'Let\'s create an asset account!',
     'no_accounts_intro_asset'               => 'You have no asset accounts yet. Asset accounts are your main accounts: your checking account, savings account, shared account or even your credit card.',
-    'no_accounts_imperative_asset'          => 'To start using Firefly III you must create at least one asset account. Let\'s do so now:',
+    'no_accounts_imperative_asset'          => 'To start using App you must create at least one asset account. Let\'s do so now:',
     'no_accounts_create_asset'              => 'Create an asset account',
     'no_accounts_title_expense'             => 'Let\'s create an expense account!',
     'no_accounts_intro_expense'             => 'You have no expense accounts yet. Expense accounts are the places where you spend money, such as shops and supermarkets.',
@@ -1270,7 +1270,7 @@ return [
     // recurring transactions
     'recurrences'                           => 'Recurring transactions',
     'no_recurring_title_default'            => 'Let\'s create a recurring transaction!',
-    'no_recurring_intro_default'            => 'You have no recurring transactions yet. You can use these to make Firefly III automatically create transactions for you.',
+    'no_recurring_intro_default'            => 'You have no recurring transactions yet. You can use these to make App automatically create transactions for you.',
     'no_recurring_imperative_default'       => 'This is a pretty advanced feature but it can be extremely useful. Make sure you read the documentation (?)-icon in the top right corner) before you continue.',
     'no_recurring_create_default'           => 'Create a recurring transaction',
     'make_new_recurring'                    => 'Create a recurring transaction',
@@ -1280,7 +1280,7 @@ return [
     'recurring_ndom'                        => 'Every month on the :dayOfMonth(st/nd/rd/th) :weekday',
     'recurring_yearly'                      => 'Every year on :date',
     'overview_for_recurrence'               => 'Overview for recurring transaction ":title"',
-    'warning_duplicates_repetitions'        => 'In rare instances, dates appear twice in this list. This can happen when multiple repetitions collide. Firefly III will always generate one transaction per day.',
+    'warning_duplicates_repetitions'        => 'In rare instances, dates appear twice in this list. This can happen when multiple repetitions collide. App will always generate one transaction per day.',
     'created_transactions'                  => 'Related transactions',
     'expected_Withdrawals'                  => 'Expected withdrawals',
     'expected_Deposits'                     => 'Expected deposits',
@@ -1289,7 +1289,7 @@ return [
     'created_Deposits'                      => 'Created deposits',
     'created_Transfers'                     => 'Created transfers',
     'created_from_recurrence'               => 'Created from recurring transaction ":title" (#:id)',
-    'recurring_never_cron'                  => 'It seems the cron job that is necessary to support recurring transactions has never run. This is of course normal when you have just installed Firefly III, but this should be something to set up as soon as possible. Please check out the help-pages using the (?)-icon in the top right corner of the page.',
+    'recurring_never_cron'                  => 'It seems the cron job that is necessary to support recurring transactions has never run. This is of course normal when you have just installed App, but this should be something to set up as soon as possible. Please check out the help-pages using the (?)-icon in the top right corner of the page.',
     'recurring_cron_long_ago'               => 'It looks like it has been more than 36 hours since the cron job to support recurring transactions has fired for the last time. Are you sure it has been set up correctly? Please check out the help-pages using the (?)-icon in the top right corner of the page.',
 
     'recurring_meta_field_tags'          => 'Tags',
@@ -1298,7 +1298,7 @@ return [
     'recurring_meta_field_piggy_bank_id' => 'Piggy bank',
     'create_new_recurrence'              => 'Create new recurring transaction',
     'help_first_date'                    => 'Indicate the first expected recurrence. This must be in the future.',
-    'help_first_date_no_past'            => 'Indicate the first expected recurrence. Firefly III will not create transactions in the past.',
+    'help_first_date_no_past'            => 'Indicate the first expected recurrence. App will not create transactions in the past.',
     'no_currency'                        => '(no currency)',
     'mandatory_for_recurring'            => 'Mandatory recurrence information',
     'mandatory_for_transaction'          => 'Mandatory transaction information',
@@ -1323,7 +1323,7 @@ return [
     'recurrence_is_inactive'             => 'This recurring transaction is not active and will not generate new transactions.',
     'delete_recurring'                   => 'Delete recurring transaction ":title"',
     'new_recurring_transaction'          => 'New recurring transaction',
-    'help_weekend'                       => 'What should Firefly III do when the recurring transaction falls on a Saturday or Sunday?',
+    'help_weekend'                       => 'What should App do when the recurring transaction falls on a Saturday or Sunday?',
     'do_nothing'                         => 'Just create the transaction',
     'skip_transaction'                   => 'Skip the occurence',
     'jump_to_friday'                     => 'Create the transaction on the previous Friday instead',
