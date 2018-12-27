@@ -131,7 +131,7 @@ class RegisterController extends Controller
         }
 
         if (false === $allowRegistration) {
-            $message = 'Registration is currently not available.';
+            $message = 'Registration not available.';
 
             return view('error', compact('message'));
         }
