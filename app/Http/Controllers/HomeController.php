@@ -46,8 +46,7 @@ class HomeController extends Controller
     public function __construct()
     {
         parent::__construct();
-        app('view')->share('title', 'Firefly III');
-        app('view')->share('mainTitleIcon', 'fa-fire');
+        app('view')->share('title', 'Finance Manager');
         $this->middleware(Installer::class);
     }
 
@@ -106,7 +105,7 @@ class HomeController extends Controller
         if (0 === $count) {
             return redirect(route('new-user.index'));
         }
-        $subTitle     = (string)trans('firefly.welcomeBack');
+        $subTitle     =  ' ';
         $transactions = [];
         $frontPage    = app('preferences')->get(
             'frontPageAccounts', $repository->getAccountsByType([AccountType::DEFAULT, AccountType::ASSET])->pluck('id')->toArray()
